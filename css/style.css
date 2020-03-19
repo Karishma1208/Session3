@@ -1,4 +1,4 @@
-.myDiv
+/* .myDiv
 {
     color: red;
 }
@@ -24,4 +24,14 @@ div{
 .newparent .child2 .child
 {
     color: red;
+} */
+
+.myDiv
+{
+    color:white;
+    background-color: red;
+    padding: 100px;
+    margin: 50px;
+    font-size: 40px;
+    border: 10px solid black;
 }
