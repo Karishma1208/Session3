@@ -1,37 +1,17 @@
-/* .myDiv
+.divStyle
 {
-    color: red;
-}
-#Div1
-{
-    color: blue;
-}
-div{
-    color: blueviolet;
-}
-.parent .child1
-{
-    color: green;
-}
-.parent #child2
-{
-    color: maroon;
-}
-.newparent .child3
-{
-    color: mediumseagreen;
-}
-.newparent .child2 .child
-{
-    color: red;
-} */
-
-.myDiv
-{
-    color:white;
+    color: white;
     background-color: red;
-    padding: 100px;
-    margin: 50px;
-    font-size: 40px;
-    border: 10px solid black;
+    width: 500px;
+    display: block;
+    
+}
+.spanStyle
+{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border: 2px solid blue;
+    width: 200px;
+
 }
