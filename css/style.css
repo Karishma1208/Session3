@@ -1,0 +1,27 @@
+.myDiv
+{
+    color: red;
+}
+#Div1
+{
+    color: blue;
+}
+div{
+    color: blueviolet;
+}
+.parent .child1
+{
+    color: green;
+}
+.parent #child2
+{
+    color: maroon;
+}
+.newparent .child3
+{
+    color: mediumseagreen;
+}
+.newparent .child2 .child
+{
+    color: red;
+}
