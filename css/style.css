@@ -1,29 +1,34 @@
-.pos
+.scroll1
 {
-    color:red;
-    position: relative;
-    left:50px;
+    background-color: lightblue;
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
 }
-#parent
+#scroll2
 {
-    position: static;
-    border: 5px solid green;
-    width: 100px;
-    height: 50px;
-    background-color: gray;
-    color: white;
-  }
-  #child {
-    position: absolute;
-    border: 3px solid red;
-    top: 70px;
-    left: 170px;
-  }
-  .sticky
-  {
-    position: sticky;
-    padding: 15px;
-    background-color: blue;
-    border: 2px solid black;
-    color: yellow;
-  }
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}
+.scroll3
+{
+    background-color: lightgray;
+    width: 250px;
+    height: 60px;
+    overflow: hidden;
+}
+#scroll4
+{
+    background-color: lightgreen;
+    width: 200px;
+    height: 150px;
+    overflow: visible;
+}
+#scroll5
+{
+    background-color: lightgreen;
+    width: 40px;
+    overflow-x: visible;
+}
